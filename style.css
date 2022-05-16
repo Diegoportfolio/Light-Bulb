@@ -11,7 +11,8 @@ body
     justify-content: center;
     align-items: center;
     background: #333;
-    min-height: 100vh;
+    min-height: 100vh;/*A propriedade min-height do 
+    CSS é usado para definir a altura mínima de um determinado elemento.*/
 }
 
 label 
@@ -26,7 +27,9 @@ label
 
 label input
 {
-    appearance: none;
+    appearance: none;/*A propriedade CSS de aparência é usada para controlar a
+     aparência nativa dos controles de interface do usuário, que são baseados 
+     no tema do sistema operacional.*/
 }
 
 label span
@@ -62,7 +65,11 @@ label input:checked ~ span ion-icon
 {
     color: rgba(255, 255, 255, 1);
     filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px #fff) drop-shadow(0 0 15px #fff)
-
+    /*A propriedade CSS do filtro se aplica
+    efeitos gráficos como desfoque ou mudança 
+    de cor para um elemento. Os filtros são comumente
+    usados ​​para ajustar a renderização de imagens, 
+    planos de fundo e bordas.*/ 
 }
 
 .bulb
